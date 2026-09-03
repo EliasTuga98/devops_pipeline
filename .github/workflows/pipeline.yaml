@@ -1,4 +1,4 @@
-name: ci_pipeline
+name: CI pipeline
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    - name: Checkout_code
+    - name: Checkout code
       uses: action/checkout@v5
 
     - name: Setup Node.js
